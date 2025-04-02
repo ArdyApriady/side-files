@@ -51,10 +51,10 @@ echo "✅ Service started!"
 
 # Identifier Execution
 echo "🚀 Running Identifier Execution..."
-rm -rf identifier.sh
-curl -s -O https://raw.githubusercontent.com/abhiag/Gaia_Node/main/identifier.sh
-chmod +x identifier.sh
-./identifier.sh
+#rm -rf identifier.sh
+curl -s -O https://raw.githubusercontent.com/ArdyApriady/side-files/refs/heads/main/identifier_multiple.sh
+chmod +x identifier_multiple.sh
+./identifier_multiple.sh
 echo "Identifier Execution Status: $?"  # Shows the exit status of Identifier Execution
 
 echo "🎉 Multiple Node setup completed successfully!"
